@@ -1,0 +1,71 @@
+html {
+  background: linear-gradient(to right, #52d794 0%, #00b3bd 100%);
+}
+body {
+  overflow-x: hidden;
+}
+.container_hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container_hero h3 {
+  color: rgb(93, 15, 124);
+  font-size: 30px;
+}
+.button {
+  background-color: white;
+  color: blue;
+  padding: 7px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.301);
+  border-radius: 5px;
+}
+.popup {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.inputField {
+  width: 500px;
+  height: 350px;
+  position: relative;
+  padding: 20px;
+  margin: 20px;
+  background: #171c2a;
+  border-radius: 5px;
+}
+
+.inputField input {
+  margin: 40px auto;
+  display: block;
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.close {
+  top: -5px;
+  position: absolute;
+  right: -5px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home -rezzak.com</title>
+    <link rel="stylesheet" href="./stylesheet/index.css" />
+  </head>
+  <body>
+    <div class="container_hero">
+      <h3>PopUp Window Login</h3>
+      <a href="#" class="button" id="button">Login</a>
+    </div>
+    <div class="popup">
+      <div class="inputField">
+        <img src="./images/download.png" alt="close" class="close" id="close" />
+        <img src="./images/Sample_User_Icon.png" alt="user" class="user" />
+        <form>
+          <input
+            type="text"
+            placeholder="username"
+            name="username"
+            id="username"
+            value=""
+          />
+          <input
+            type="password"
+            placeholder="password"
+            name="password"
+            id="password"
+            value=""
+          />
+          <button class="button" type="submit" onclick="return formData()">
+            Login Now
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
